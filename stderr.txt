@@ -1,0 +1,254 @@
+    169220:	
+    169220:	file=libunwind-ptrace.so.0 [0];  needed by strace [0]
+    169220:	file=libunwind-ptrace.so.0 [0];  generating link map
+    169220:	  dynamic: 0x00007d39167b2df0  base: 0x00007d39167ae000   size: 0x0000000000005148
+    169220:	    entry: 0x00007d39167ae000  phdr: 0x00007d39167ae040  phnum:                  9
+    169220:	
+    169220:	
+    169220:	file=libunwind-x86_64.so.8 [0];  needed by strace [0]
+    169220:	file=libunwind-x86_64.so.8 [0];  generating link map
+    169220:	  dynamic: 0x00007d39167a2e28  base: 0x00007d3916792000   size: 0x000000000001b9f0
+    169220:	    entry: 0x00007d3916792000  phdr: 0x00007d3916792040  phnum:                  9
+    169220:	
+    169220:	
+    169220:	file=libc.so.6 [0];  needed by strace [0]
+    169220:	file=libc.so.6 [0];  generating link map
+    169220:	  dynamic: 0x00007d3916602940  base: 0x00007d3916400000   size: 0x0000000000211d90
+    169220:	    entry: 0x00007d391642a390  phdr: 0x00007d3916400040  phnum:                 14
+    169220:	
+    169220:	
+    169220:	file=liblzma.so.5 [0];  needed by /lib/x86_64-linux-gnu/libunwind-x86_64.so.8 [0]
+    169220:	file=liblzma.so.5 [0];  generating link map
+    169220:	  dynamic: 0x00007d3916790cb8  base: 0x00007d3916760000   size: 0x0000000000031018
+    169220:	    entry: 0x00007d3916760000  phdr: 0x00007d3916760040  phnum:                 11
+    169220:	
+    169220:	
+    169220:	file=libunwind.so.8 [0];  needed by /lib/x86_64-linux-gnu/libunwind-x86_64.so.8 [0]
+    169220:	file=libunwind.so.8 [0];  generating link map
+    169220:	  dynamic: 0x00007d3916754e08  base: 0x00007d3916745000   size: 0x000000000001ab10
+    169220:	    entry: 0x00007d3916745000  phdr: 0x00007d3916745040  phnum:                 10
+    169220:	
+    169220:	
+    169220:	calling init: /lib64/ld-linux-x86-64.so.2
+    169220:	
+    169220:	
+    169220:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+    169220:	
+    169220:	
+    169220:	calling init: /lib/x86_64-linux-gnu/liblzma.so.5
+    169220:	
+    169220:	
+    169220:	calling init: /lib/x86_64-linux-gnu/libunwind.so.8
+    169220:	
+    169220:	
+    169220:	calling init: /lib/x86_64-linux-gnu/libunwind-x86_64.so.8
+    169220:	
+    169220:	
+    169220:	calling init: /lib/x86_64-linux-gnu/libunwind-ptrace.so.0
+    169220:	
+    169220:	
+    169220:	initialize program: strace
+    169220:	
+    169220:	
+    169220:	transferring control: strace
+    169220:	
+    169223:	
+    169223:	file=libgcc_s.so.1 [0];  needed by cargo [0]
+    169223:	file=libgcc_s.so.1 [0];  generating link map
+    169223:	  dynamic: 0x00007baddd434da8  base: 0x00007baddd409000   size: 0x000000000002c3a8
+    169223:	    entry: 0x00007baddd409000  phdr: 0x00007baddd409040  phnum:                 12
+    169223:	
+    169223:	
+    169223:	file=librt.so.1 [0];  needed by cargo [0]
+    169223:	file=librt.so.1 [0];  generating link map
+    169223:	  dynamic: 0x00007baddd407d38  base: 0x00007baddd404000   size: 0x0000000000004010
+    169223:	    entry: 0x00007baddd404000  phdr: 0x00007baddd404040  phnum:                 11
+    169223:	
+    169223:	
+    169223:	file=libpthread.so.0 [0];  needed by cargo [0]
+    169223:	file=libpthread.so.0 [0];  generating link map
+    169223:	  dynamic: 0x00007baddd402da8  base: 0x00007baddd3ff000   size: 0x0000000000004010
+    169223:	    entry: 0x00007baddd3ff000  phdr: 0x00007baddd3ff040  phnum:                 11
+    169223:	
+    169223:	
+    169223:	file=libm.so.6 [0];  needed by cargo [0]
+    169223:	file=libm.so.6 [0];  generating link map
+    169223:	  dynamic: 0x00007baddd3fdc10  base: 0x00007baddd316000   size: 0x00000000000e8018
+    169223:	    entry: 0x00007baddd316000  phdr: 0x00007baddd316040  phnum:                 11
+    169223:	
+    169223:	
+    169223:	file=libdl.so.2 [0];  needed by cargo [0]
+    169223:	file=libdl.so.2 [0];  generating link map
+    169223:	  dynamic: 0x00007baddd314da8  base: 0x00007baddd311000   size: 0x0000000000004010
+    169223:	    entry: 0x00007baddd311000  phdr: 0x00007baddd311040  phnum:                 11
+    169223:	
+    169223:	
+    169223:	file=libc.so.6 [0];  needed by cargo [0]
+    169223:	file=libc.so.6 [0];  generating link map
+    169223:	  dynamic: 0x00007baddd202940  base: 0x00007baddd000000   size: 0x0000000000211d90
+    169223:	    entry: 0x00007baddd02a390  phdr: 0x00007baddd000040  phnum:                 14
+    169223:	
+    169223:	
+    169223:	calling init: /lib64/ld-linux-x86-64.so.2
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libdl.so.2
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libm.so.6
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libpthread.so.0
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/librt.so.1
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libgcc_s.so.1
+    169223:	
+    169223:	
+    169223:	initialize program: cargo
+    169223:	
+    169223:	
+    169223:	transferring control: cargo
+    169223:	
+    169223:	
+    169223:	file=libdl.so.2 [0];  needed by /home/yoimiya/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo [0]
+    169223:	file=libdl.so.2 [0];  generating link map
+    169223:	  dynamic: 0x000074436506bda8  base: 0x0000744365068000   size: 0x0000000000004010
+    169223:	    entry: 0x0000744365068000  phdr: 0x0000744365068040  phnum:                 11
+    169223:	
+    169223:	
+    169223:	file=libgcc_s.so.1 [0];  needed by /home/yoimiya/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo [0]
+    169223:	file=libgcc_s.so.1 [0];  generating link map
+    169223:	  dynamic: 0x0000744365066da8  base: 0x000074436503b000   size: 0x000000000002c3a8
+    169223:	    entry: 0x000074436503b000  phdr: 0x000074436503b040  phnum:                 12
+    169223:	
+    169223:	
+    169223:	file=librt.so.1 [0];  needed by /home/yoimiya/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo [0]
+    169223:	file=librt.so.1 [0];  generating link map
+    169223:	  dynamic: 0x0000744365039d38  base: 0x0000744365036000   size: 0x0000000000004010
+    169223:	    entry: 0x0000744365036000  phdr: 0x0000744365036040  phnum:                 11
+    169223:	
+    169223:	
+    169223:	file=libpthread.so.0 [0];  needed by /home/yoimiya/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo [0]
+    169223:	file=libpthread.so.0 [0];  generating link map
+    169223:	  dynamic: 0x0000744365034da8  base: 0x0000744365031000   size: 0x0000000000004010
+    169223:	    entry: 0x0000744365031000  phdr: 0x0000744365031040  phnum:                 11
+    169223:	
+    169223:	
+    169223:	file=libm.so.6 [0];  needed by /home/yoimiya/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo [0]
+    169223:	file=libm.so.6 [0];  generating link map
+    169223:	  dynamic: 0x000074436502fc10  base: 0x0000744364f48000   size: 0x00000000000e8018
+    169223:	    entry: 0x0000744364f48000  phdr: 0x0000744364f48040  phnum:                 11
+    169223:	
+    169223:	
+    169223:	file=libc.so.6 [0];  needed by /home/yoimiya/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo [0]
+    169223:	file=libc.so.6 [0];  generating link map
+    169223:	  dynamic: 0x0000744364e02940  base: 0x0000744364c00000   size: 0x0000000000211d90
+    169223:	    entry: 0x0000744364c2a390  phdr: 0x0000744364c00040  phnum:                 14
+    169223:	
+    169223:	
+    169223:	calling init: /lib64/ld-linux-x86-64.so.2
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libm.so.6
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libpthread.so.0
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/librt.so.1
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libgcc_s.so.1
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libdl.so.2
+    169223:	
+    169223:	
+    169223:	initialize program: /home/yoimiya/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo
+    169223:	
+    169223:	
+    169223:	transferring control: /home/yoimiya/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo
+    169223:	
+    Finished `release` profile [optimized] target(s) in 0.86s
+     Running `target/release/xtask chat --model TinyLlama-1.1B-Chat-v1.0_F16`
+    169223:	
+    169223:	file=libgcc_s.so.1 [0];  needed by target/release/xtask [0]
+    169223:	file=libgcc_s.so.1 [0];  generating link map
+    169223:	  dynamic: 0x0000763b25910da8  base: 0x0000763b258e5000   size: 0x000000000002c3a8
+    169223:	    entry: 0x0000763b258e5000  phdr: 0x0000763b258e5040  phnum:                 12
+    169223:	
+    169223:	
+    169223:	file=libm.so.6 [0];  needed by target/release/xtask [0]
+    169223:	file=libm.so.6 [0];  generating link map
+    169223:	  dynamic: 0x0000763b258e3c10  base: 0x0000763b257fc000   size: 0x00000000000e8018
+    169223:	    entry: 0x0000763b257fc000  phdr: 0x0000763b257fc040  phnum:                 11
+    169223:	
+    169223:	
+    169223:	file=libc.so.6 [0];  needed by target/release/xtask [0]
+    169223:	file=libc.so.6 [0];  generating link map
+    169223:	  dynamic: 0x0000763b25602940  base: 0x0000763b25400000   size: 0x0000000000211d90
+    169223:	    entry: 0x0000763b2542a390  phdr: 0x0000763b25400040  phnum:                 14
+    169223:	
+    169223:	
+    169223:	calling init: /lib64/ld-linux-x86-64.so.2
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libc.so.6
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libm.so.6
+    169223:	
+    169223:	
+    169223:	calling init: /lib/x86_64-linux-gnu/libgcc_s.so.1
+    169223:	
+    169223:	
+    169223:	initialize program: target/release/xtask
+    169223:	
+    169223:	
+    169223:	transferring control: target/release/xtask
+    169223:	
+    169223:	
+    169223:	calling fini:  [0]
+    169223:	
+    169223:	
+    169223:	calling fini: /lib/x86_64-linux-gnu/libgcc_s.so.1 [0]
+    169223:	
+    169223:	
+    169223:	calling fini: /lib/x86_64-linux-gnu/libm.so.6 [0]
+    169223:	
+    169223:	
+    169223:	calling fini: /lib/x86_64-linux-gnu/libc.so.6 [0]
+    169223:	
+    169223:	
+    169223:	calling fini: /lib64/ld-linux-x86-64.so.2 [0]
+    169223:	
+    169220:	
+    169220:	calling fini:  [0]
+    169220:	
+    169220:	
+    169220:	calling fini: /lib/x86_64-linux-gnu/libunwind-ptrace.so.0 [0]
+    169220:	
+    169220:	
+    169220:	calling fini: /lib/x86_64-linux-gnu/libunwind-x86_64.so.8 [0]
+    169220:	
+    169220:	
+    169220:	calling fini: /lib/x86_64-linux-gnu/libunwind.so.8 [0]
+    169220:	
+    169220:	
+    169220:	calling fini: /lib/x86_64-linux-gnu/liblzma.so.5 [0]
+    169220:	
+    169220:	
+    169220:	calling fini: /lib/x86_64-linux-gnu/libc.so.6 [0]
+    169220:	
+    169220:	
+    169220:	calling fini: /lib64/ld-linux-x86-64.so.2 [0]
+    169220:	
