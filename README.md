@@ -45,6 +45,12 @@ $ cargo chat --model TinyLlama-1.1B-Chat-v1.0_F16
 - `syscall_set`：对 `stdout.txt` 中涉及的 syscall 进行总结去重得到的列表
 
 
+## 内核运行
+- 内核地址： [https://github.com/Starry-OS/Starry](StarryOS)
 
-
-
+- 内核运行方式：在内核根目录下执行以下命令
+```sh
+$ git checkout feat_InfiniLM
+$ ./build_img.sh -file x86_64_InfiniLM
+$ make A=apps/monolithic_userboot LOG=error ARCH=x86_64 ACCEL=n run
+```
