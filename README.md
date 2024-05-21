@@ -11,6 +11,8 @@ $ git clone https://github.com/InfiniTensor/InfiniLM
 - 拉取测试模型
 
 ```sh
+$ cd InfiniLM
+
 $ git lfs install
 
 $ git clone https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0
