@@ -1,5 +1,5 @@
 $ export LD_DEBUG = "files"
-$ strace -o stdout.txt cargo chat --model TinyLlama-1.1B-Chat-v1.0_F16 2>stderr.txt                                                                   ─╯
+$ strace -o stdout.txt target/release/xtask chat --model TinyLlama-1.1B-Chat-v1.0_F16 2>stderr.txt                                                                 ─╯
 ###########################################
 # 欢迎使用九源推理框架-大模型单机对话demo #
 ###########################################

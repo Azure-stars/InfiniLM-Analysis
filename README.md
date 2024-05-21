@@ -18,8 +18,6 @@ $ git clone https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0
 
 如果上面两步进行较慢，或者不支持 lfs，可以选择访问：https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main 并且手动下载 config.json, model.safetensors, tokenizer.model 三个文件，将其打包放入 `TinyLlama-1.1B-Chat-v1.0` 并且放入项目根目录
 
-
-
 - 运行模型
 
 ```sh
@@ -32,9 +30,9 @@ $ cargo chat --model TinyLlama-1.1B-Chat-v1.0_F16
 
 - debug.S: 可执行文件的反汇编代码
 
-  生成方式：
-
+  生成方式： 在 InfiniLM 项目根目录下执行以下命令
   ```sh
+  $ cargo build --package xtask --release
   $ objdump -d -S target/release/xtask > debug.S
   ```
 
@@ -46,7 +44,6 @@ $ cargo chat --model TinyLlama-1.1B-Chat-v1.0_F16
 
 - `syscall_set`：对 `stdout.txt` 中涉及的 syscall 进行总结去重得到的列表
 
-  **TIPS**：测试发现，当打开`LD_DEBUG=files`这一调试开关时，涉及的 syscall 会减少两个，分别是`pwrite64` 和 `unlink`，后续需注意这一点
 
 
 
