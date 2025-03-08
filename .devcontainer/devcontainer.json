@@ -6,6 +6,6 @@
     "runArgs": [
         "--privileged"
     ],
-    "workspaceFolder": "/workspace",
-    "remoteUser": "devuser"
+    "workspaceFolder": "/workspaces",
+    "remoteUser": "root"
 }
