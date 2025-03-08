@@ -1,0 +1,11 @@
+{
+    "name": "My Codespace",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": [
+        "--privileged"
+    ],
+    "workspaceFolder": "/workspace",
+    "remoteUser": "devuser"
+}
