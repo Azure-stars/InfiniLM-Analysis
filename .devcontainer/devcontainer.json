@@ -1,11 +1,19 @@
 {
-    "name": "My Codespace",
+    "name": "Starry",
     "build": {
         "dockerfile": "Dockerfile"
     },
     "runArgs": [
         "--privileged"
     ],
-    "workspaceFolder": "/workspaces",
-    "remoteUser": "root"
+    "postCreateCommand": "rustup show",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "ms-vscode.cpptools",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    }
 }
